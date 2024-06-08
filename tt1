@@ -1,0 +1,14 @@
+# Step 1: Initialize a new Git repository
+git init
+
+# Step 2: Add files to the staging area
+git add .
+
+# Step 3: Commit the files to the repository with a commit message
+git commit -m "Initial commit with project setup"
+
+# Step 4: Set the remote repository URL (replace with your repository URL)
+git remote add origin https://github.com/your-username/your-repo.git
+
+# Step 5: Push the commit to the remote repository
+git push -u origin master
